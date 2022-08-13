@@ -1,0 +1,447 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Tue Aug  2 12:02:34 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+GATEWAY_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/gateway.vmoptions
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PLATFORMIO_IDE = 2.5.1
+# environment
+WEBSTORM_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/webstorm.vmoptions
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/user/Documents/coding/golang_template
+# makefile
+SHELL = /bin/sh
+# environment
+APPCODE_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/appcode.vmoptions
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 6)
+DATABASE_URL = postgres://postgres:password@cgapp-postgres/postgres?sslmode=disable
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+WEBIDE_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/webide.vmoptions
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/tb/z3tsnlf52g1bc84mdnkzsy2m0000gn/T/vscode-ipc-93e20dea-c88b-432a-9ed6-2a1ee2a2fb24.sock
+# environment
+VSCODE_CWD = /
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+PHPSTORM_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/phpstorm.vmoptions
+# makefile (from `Makefile', line 5)
+MIGRATIONS_FOLDER = $(PWD)/platform/migrations
+# environment
+GOLAND_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/goland.vmoptions
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ANDROID_HOME = /Users/user/Library/Android/sdk
+# environment
+JETBRAINSCLIENT_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/jetbrainsclient.vmoptions
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+IDEA_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/idea.vmoptions
+# environment
+DATASPELL_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/dataspell.vmoptions
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.OPZKfHjDXD/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/user/Documents/coding/golang_template
+# environment
+JETBRAINS_CLIENT_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/jetbrains_client.vmoptions
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/user
+# environment
+RIDER_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/rider.vmoptions
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/user/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LOGNAME = user
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+PLATFORMIO_PATH = /Users/user/.platformio/python3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/user/Library/Android/sdk/emulator:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/tools/bin:/Users/user/Library/Android/sdk/platform-tools
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/user/Library/Android/sdk/emulator:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/tools/bin:/Users/user/Library/Android/sdk/platform-tools
+# environment
+SHLVL = 1
+# environment
+XPC_FLAGS = 0x0
+# makefile (from `Makefile', line 4)
+BUILD_DIR = $(PWD)/build
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = user
+# makefile
+.DEFAULT_GOAL := clean
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/tb/z3tsnlf52g1bc84mdnkzsy2m0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/user/Library/Application Support/Code/1.68.1-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.18529050.18529056
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+DATAGRIP_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/datagrip.vmoptions
+# automatic
++F = $(notdir $+)
+# makefile (from `Makefile', line 3)
+APP_NAME = apiserver
+# environment
+RUBYMINE_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/rubymine.vmoptions
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+PYCHARM_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/pycharm.vmoptions
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+ANDROID_SDK_ROOT = /Users/user/Library/Android/sdk
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+CLION_VM_OPTIONS = /Users/user/Documents/data/ja-netfilter-all/vmoptions/clion.vmoptions
+# environment
+LANG = C
+# environment
+VSCODE_PID = 11430
+# variable set hash-table stats:
+# Load=87/1024=8%, Rehash=0, Collisions=3/111=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777224, inode 18516376): 24 files, no impossibilities.
+
+# 24 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+migrate.up:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 31):
+	migrate -path $(MIGRATIONS_FOLDER) -database "$(DATABASE_URL)" up
+	
+
+migrate.down:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 34):
+	migrate -path $(MIGRATIONS_FOLDER) -database "$(DATABASE_URL)" down
+	
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+docker.stop.redis:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 82):
+	docker stop cgapp-redis
+	
+
+.PHONY: clean critic security lint test build run
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-28 11:21:15
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test: clean critic security lint
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 21):
+	go test -v -timeout 30s -coverprofile=cover.out -cover ./...
+	go tool cover -func=cover.out
+	
+
+ 
+make: *** No rule to make target `all'.  Stop.
+
+build: test
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 25):
+	CGO_ENABLED=0 go build -ldflags="-w -s" -o $(BUILD_DIR)/$(APP_NAME) main.go
+	
+
+docker.run: docker.network docker.postgres swag docker.fiber docker.redis migrate.up
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+docker.fiber: docker.fiber.build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 49):
+	docker run --rm -d \
+	--name cgapp-fiber \
+	--network dev-network \
+	-p 5000:5000 \
+	fiber
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+docker.network:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 42):
+	docker network inspect dev-network >/dev/null 2>&1 || \
+	docker network create -d bridge dev-network
+	
+
+run: swag build
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 28):
+	$(BUILD_DIR)/$(APP_NAME)
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 9):
+	rm -rf ./build
+	
+
+docker.postgres:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 56):
+	docker run --rm -d \
+	--name cgapp-postgres \
+	--network dev-network \
+	-e POSTGRES_USER=postgres \
+	-e POSTGRES_PASSWORD=password \
+	-e POSTGRES_DB=postgres \
+	-v ${HOME}/dev-postgres/data/:/var/lib/postgresql/data \
+	-p 5432:5432 \
+	postgres
+	
+
+security:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 15):
+	gosec ./...
+	
+
+docker.stop.fiber:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 76):
+	docker stop cgapp-fiber
+	
+
+migrate.force:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 37):
+	migrate -path $(MIGRATIONS_FOLDER) -database "$(DATABASE_URL)" force $(version)
+	
+
+lint:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 18):
+	golangci-lint run ./...
+	
+
+swag:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 85):
+	swag init
+	
+
+docker.redis:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 67):
+	docker run --rm -d \
+	--name cgapp-redis \
+	--network dev-network \
+	-p 6379:6379 \
+	redis
+	
+
+docker.fiber.build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 46):
+	docker build -t fiber .
+	
+
+critic:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 12):
+	gocritic check -enableAll ./...
+	
+
+docker.stop.postgres:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 79):
+	docker stop cgapp-postgres
+	
+
+docker.stop: docker.stop.fiber docker.stop.postgres docker.stop.redis
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=26/1024=3%, Rehash=0, Collisions=0/62=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Aug  2 12:02:35 2022
+
+ 

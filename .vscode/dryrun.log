@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/user/Documents/coding/golang_template'
+rm -rf ./build
+make: Leaving directory `/Users/user/Documents/coding/golang_template'
+ 
